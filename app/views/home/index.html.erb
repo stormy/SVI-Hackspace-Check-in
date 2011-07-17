@@ -1,0 +1,22 @@
+<%= render 'form' %>
+<div id="checked_in">
+<h2><%= @checkins.length %> people currently checked in: </h2>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Working On</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+ 
+<% @checkins.each do |checkin| %>
+  <tr>
+    <td class="checkin_name"><%= checkin.name %></td>
+    <td class="checkin_status"><%= checkin.status %></td>
+    <td class="checkout_link"><%= link_to 'check-out', checkin_path(checkin)+ '/checkout' %></td>
+  </tr>
+<% end %>
+</table>
+</div>

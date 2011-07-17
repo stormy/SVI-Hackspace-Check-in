@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @checkin.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @checkin.email %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @checkin.status %>
+</p>
+
+<p>
+  <b>Checked in at:</b>
+  <%= @checkin.created_at %>
+</p>
+
+<p>
+  <b>Checked out at:</b>
+  <%= @checkin.checked_out_at %>
+</p>
+
+<%= link_to 'Edit', edit_checkin_path(@checkin) %> |
+<%= link_to 'Back', checkins_path %>

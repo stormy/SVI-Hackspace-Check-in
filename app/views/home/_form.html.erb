@@ -1,0 +1,31 @@
+<div id="new-checkin">
+<%= form_for(@checkin) do |f| %>
+  <% if @checkin.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@checkin.errors.count, "error") %> prohibited this checkin from being saved:</h2>
+
+      <ul>
+      <% @checkin.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field" id="name">
+    <%= f.text_field :name, 
+      :value => "What's your name?"%>
+  </div>
+  <div class="field" id="email">
+    <%= f.text_field :email,
+     :value => "What's your email?" %>
+  </div>
+  <div class="field" id="status">
+    <%= f.text_field :status,
+      :value => "What are you working on?" %>
+  </div>
+  <div class="actions">
+    <%= f.submit :value=> "Check-in!" %>
+  </div>
+<% end %>
+</div>

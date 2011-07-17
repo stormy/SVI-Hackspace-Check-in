@@ -1,0 +1,117 @@
+body.home {
+  // Add the home class to your body tag
+  // Then, place scoped styles here.
+}
+#wrapper {
+  width: 85%;
+  margin: auto;
+}
+input[type="text"] {
+}
+input[name="checkin[status]"] {
+  width: 547px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 125%;
+}
+input[name="checkin[name]"] {
+  width: 268px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 125%;
+}
+input[name="checkin[email]"] {
+  width: 268px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 125%;
+}
+input[name="commit"] {
+  margin-top: 10px;
+}
+div#email {
+  display: inline;
+  width: 260px;
+}
+div#name {
+  display: inline;
+  width: 260px;
+}
+
+
+th {
+  text-align: left;
+}
+td.checkin_name{
+  width: 100px;
+  padding-right: 20px;
+  vertical-align:top;
+}
+td.checkin_status{
+  width: 335px;
+  padding-right: 15px;
+}
+td.checkout_link {
+  width: 65px;
+}
+tr {
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000;
+  &:visited {
+    color: #666; }
+  &:hover {
+    color: #fff;
+    background-color: #000; } }
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px; } }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  ul li {
+    font-size: 12px;
+    list-style: square; } }

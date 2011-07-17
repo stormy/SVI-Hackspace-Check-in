@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  status: MyString
+  checked_out_at: 2011-07-16 21:16:24
+
+two:
+  name: MyString
+  email: MyString
+  status: MyString
+  checked_out_at: 2011-07-16 21:16:24

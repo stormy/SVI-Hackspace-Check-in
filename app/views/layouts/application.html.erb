@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SviHackathon</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="wrapper">
+    <div id="header">
+      <h1>Who's at the SVI Summer Hackspace?</h1>
+    </div>
+    
+    <div id="content">
+      <%= yield %>
+    </div>
+
+    <div id="footer">
+
+    </div>
+
+</body>
+</html>

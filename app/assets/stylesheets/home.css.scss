@@ -1,0 +1,60 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body.home {
+  // Add the home class to your body tag
+  // Then, place scoped styles here.
+}
+#wrapper {
+  width: 85%;
+  margin: auto;
+}
+input[type="text"] {
+}
+input[name="checkin[status]"] {
+  width: 547px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 125%;
+}
+input[name="checkin[name]"] {
+  width: 268px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 125%;
+}
+input[name="checkin[email]"] {
+  width: 268px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 125%;
+}
+div#email {
+  display: inline;
+  width: 260px;
+}
+div#name {
+  display: inline;
+  width: 260px;
+}
+
+
+th {
+  text-align: left;
+}
+td.checkin_name{
+  width: 100px;
+  padding-right: 20px;
+}
+td.checkin_status{
+  width: 335px;
+  padding-right: 15px;
+}
+td.checkout_link {
+  width: 65px;
+}
+tr {
+  margin-bottom: 10px;
+}
